@@ -78,6 +78,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/crbaniak/Link to fall18/3130_algs/project3/BANC3/header.h">
+			<Option target="BANC3"/>
+		</Unit>
 		<Unit filename="/home/crbaniak/Link to fall18/3130_algs/project3/BANC3/main.c">
 			<Option target="BANC3"/>
 		</Unit>

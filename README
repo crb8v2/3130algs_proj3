@@ -1,2 +1,12 @@
 
 ##### Connor Baniak #####
+
+This is a menu driven program that does the following
+commands on a binary search tree:
+    -Insert
+    -Delete
+    -Inorder
+    -Postorder
+    -Preorder
+
+All Binary Search Tree Functions from geekforgeeks.com

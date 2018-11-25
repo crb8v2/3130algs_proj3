@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/crbaniak/Link to fall18/3130_algs/project3/BANC3/header.h
+stdio.h
+-
+stdlib.h
+-
+
+/home/crbaniak/Link to fall18/3130_algs/project3/BANC3/main.c
+header.h
+/home/crbaniak/Link to fall18/3130_algs/project3/BANC3/header.h
+

@@ -3,4 +3,4 @@ project(BANC3 C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(BANC3 main.c)
+add_executable(BANC3 main.c header.h)
