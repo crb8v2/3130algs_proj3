@@ -6,13 +6,9 @@ void inorder(struct node*);
 void postorder(struct node*);
 void preorder(struct node*);
 
-// Driver Program to test above functions
 int main()
 {
     int array[] = {30, 10, 45, 38, 20, 50, 25, 33, 8, 12};
-//    int userChoice, exitFlag = 0;
-//    int value;
-
 
     // init the tree
     struct node *root = NULL;
@@ -90,11 +86,9 @@ struct node initTree(struct node *root){
             printf("\nTerminated\n");
             exit(0);
     }
-
-
 }
 
-// A utility function to do inorder traversal of BST
+// inorder traversal of BST
 void inorder(struct node *root)
 {
     if (root != NULL)
@@ -105,7 +99,7 @@ void inorder(struct node *root)
     }
 }
 
-// A utility function to do inorder traversal of BST
+// postorder traversal of BST
 void postorder(struct node *root)
 {
     if (root != NULL)
@@ -116,7 +110,7 @@ void postorder(struct node *root)
     }
 }
 
-// A utility function to do inorder traversal of BST
+// preorder traversal of BST
 void preorder(struct node *root)
 {
     if (root != NULL)
